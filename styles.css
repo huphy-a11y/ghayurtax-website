@@ -360,3 +360,9 @@ address{font-style:normal;line-height:1.5;color:var(--ink-2);margin-top:.3rem}
 .grants-table th:nth-child(4),.grants-table td:nth-child(4){min-width:11rem}
 .grants-table a{color:var(--link)}
 .grants-table strong{color:var(--ink)}
+/* Header fit fix (Sept 18, 2026): em-based so it holds at any browser text size; brand never slides under the nav */
+.site-header .wrap{max-width:85rem}
+.brand{flex:none}
+.brand-name{white-space:nowrap}
+@media (max-width:94em){.site-nav{gap:1.1rem}.site-nav a{font-size:.9rem}.brand-name{font-size:1rem}.brand-sub{display:none}}
+@media (max-width:77em){.brand{flex:0 1 auto;min-width:0}.brand-name{white-space:normal}.site-nav{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;gap:0;background:var(--brand-deep);padding:.25rem clamp(16px,4vw,32px) 1rem;border-bottom:1px solid var(--brand-line);box-shadow:0 16px 30px -12px rgba(0,0,0,.45)}.site-header.open .site-nav{display:flex}.site-nav a{padding:.9rem 0;border-bottom:1px solid var(--brand-line);font-size:1.05rem;color:#FFFFFF}.site-nav a:last-child{border-bottom:0}.menu-btn{display:inline-flex}.nav-actions .btn-light{display:none}}
