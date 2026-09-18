@@ -204,11 +204,13 @@ address{font-style:normal;line-height:1.5;color:var(--ink-2);margin-top:.3rem}
 }
 /* Nav: more items */
 .site-nav a.nav-strong{color:#FFFFFF}
-@media (min-width:1121px) and (max-width:1240px){
+@media (min-width:1121px) and (max-width:1500px){
   .site-nav{gap:1.1rem}
   .site-nav a{font-size:.9rem}
+  .brand-name{white-space:nowrap;font-size:1rem}
   .brand-sub{display:none}
 }
+@media (min-width:1501px){.brand-name,.brand-sub{white-space:nowrap}}
 
 /* Contact tiles: 4 up */
 .contact-grid.four{grid-template-columns:repeat(4,1fr)}
@@ -342,3 +344,19 @@ address{font-style:normal;line-height:1.5;color:var(--ink-2);margin-top:.3rem}
   html{scroll-behavior:auto}
   *,*::before,*::after{transition:none!important}
 }
+
+/* contact grid, two tiles */
+.contact-grid.two{grid-template-columns:repeat(2,1fr);max-width:820px}
+@media (max-width:600px){.contact-grid.two{grid-template-columns:1fr}}
+/* how-it-works: three-up timeline */
+.timeline.how{grid-template-columns:repeat(3,1fr)}
+@media (max-width:820px){.timeline.how{grid-template-columns:1fr}}
+/* grants page tables */
+.grants-table{min-width:760px}
+.grants-table td{font-size:.93rem}
+.grants-table td:first-child{white-space:normal;font:600 .95rem/1.4 var(--font-body);color:var(--ink);min-width:12rem}
+.grants-table td:nth-child(2){color:var(--ink-2)}
+.grants-table td:nth-child(3){min-width:14rem}
+.grants-table th:nth-child(4),.grants-table td:nth-child(4){min-width:11rem}
+.grants-table a{color:var(--link)}
+.grants-table strong{color:var(--ink)}
