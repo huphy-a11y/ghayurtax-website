@@ -1,0 +1,23 @@
+# Ghayur Accounts and Tax Services — ghayurtax.com
+# All crawlers, including AI assistants, are welcome.
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://www.ghayurtax.com/sitemap.xml
