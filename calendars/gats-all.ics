@@ -1,0 +1,678 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ghayur Accounts and Tax Services//Key dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GATS · All key tax dates
+X-WR-TIMEZONE:America/Toronto
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+X-PUBLISHED-TTL:P1W
+X-WR-CALDESC:Tax and filing dates from Ghayur Accounts and Tax Services (
+ GATS)\, Mississauga. https://www.ghayurtax.com/key-dates.html
+BEGIN:VEVENT
+UID:gats-personal-t4--t4a-and-t5-slips-arrive@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+RRULE:FREQ=YEARLY;BYMONTH=2;BYMONTHDAY=-1
+SUMMARY:T4\, T4A and T5 slips arrive
+DESCRIPTION:Employers\, payers and banks must issue slips by the last day
+  of February. If yours haven't arrived by the first week of March\, ask 
+ for them. Who: Everyone. If a due date falls on a Saturday\, Sunday or p
+ ublic holiday\, the CRA treats it as on time if received the next busine
+ ss day. More: https://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: T4\, T4A and T5 slips arrive
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: T4\, T4A and T5 slips arrive
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-personal-rrsp-contribution-deadline-for-last-year@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+RRULE:FREQ=YEARLY
+SUMMARY:RRSP contribution deadline for last year's return
+DESCRIPTION:Contributions made in the first 60 days of the year can be de
+ ducted on the previous year's return (February 29 in a leap year). FHSA 
+ contributions do not get the 60-day rule — they must be made by Decemb
+ er 31. Who: RRSP contributors. If a due date falls on a Saturday\, Sunda
+ y or public holiday\, the CRA treats it as on time if received the next 
+ business day. More: https://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: RRSP contribution deadline for last year's return
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: RRSP contribution deadline for last year's return
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-personal-personal-tax-instalment-due@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+RRULE:FREQ=YEARLY;BYMONTH=3,6,9,12;BYMONTHDAY=15
+SUMMARY:Personal tax instalment due
+DESCRIPTION:Instalments are required if your net tax owing is more than $
+ 3\,000 this year and was in either of the two previous years. The CRA se
+ nds instalment reminders in February and August. Who: Self-employed\, la
+ ndlords\, investors — anyone who owes more than $3\,000 at filing. If 
+ a due date falls on a Saturday\, Sunday or public holiday\, the CRA trea
+ ts it as on time if received the next business day. More: https://www.gh
+ ayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Personal tax instalment due
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Personal tax instalment due
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-personal-t1-personal-return-and-balance-due@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+RRULE:FREQ=YEARLY
+SUMMARY:T1 personal return and balance due
+DESCRIPTION:File your T1 and pay any balance. Self-employed people and th
+ eir spouses have until June 15 to file\, but interest on a balance start
+ s May 1. Who: Everyone (self-employed: payment due today\, return by Jun
+ e 15). If a due date falls on a Saturday\, Sunday or public holiday\, th
+ e CRA treats it as on time if received the next business day. More: http
+ s://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: T1 personal return and balance due
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: T1 personal return and balance due
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-personal-t1-filing-deadline---self-employed-and-t@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+RRULE:FREQ=YEARLY
+SUMMARY:T1 filing deadline — self-employed and their spouses
+DESCRIPTION:Last day to file without a late-filing penalty. Any balance w
+ as due April 30. Who: Self-employed and spouses. If a due date falls on 
+ a Saturday\, Sunday or public holiday\, the CRA treats it as on time if 
+ received the next business day. More: https://www.ghayurtax.com/key-date
+ s.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: T1 filing deadline — self-employed and their spou
+ ses
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: T1 filing deadline — self-employed and their spou
+ ses
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-personal-last-day-for-this-year-s-donations--fhsa@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+RRULE:FREQ=YEARLY
+SUMMARY:Last day for this year's donations\, FHSA and RESP contributions
+DESCRIPTION:Charitable donations\, FHSA contributions (no 60-day extensio
+ n) and RESP contributions for this year's grant must be made by December
+  31. TFSA contributions can be made any time there is room. Who: Everyon
+ e. If a due date falls on a Saturday\, Sunday or public holiday\, the CR
+ A treats it as on time if received the next business day. More: https://
+ www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Last day for this year's donations\, FHSA and RESP 
+ contributions
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Last day for this year's donations\, FHSA and RESP 
+ contributions
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-business-t4--t4a-and-t5-slips-and-summaries-due-t@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+RRULE:FREQ=YEARLY;BYMONTH=2;BYMONTHDAY=-1
+SUMMARY:T4\, T4A and T5 slips and summaries due to the CRA
+DESCRIPTION:File the T4 and T4A summaries and give employees their slips.
+  T5s for dividends paid during the year are due the same day. Who: Emplo
+ yers\; corporations that paid dividends. If a due date falls on a Saturd
+ ay\, Sunday or public holiday\, the CRA treats it as on time if received
+  the next business day. More: https://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: T4\, T4A and T5 slips and summaries due to the CRA
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: T4\, T4A and T5 slips and summaries due to the CRA
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-business-corp-balance@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+RRULE:FREQ=YEARLY;BYMONTH=2;BYMONTHDAY=-1
+SUMMARY:Corporate tax balance due — December 31 year-ends
+DESCRIPTION:Two months after year-end. Canadian-controlled private corpor
+ ations claiming the small business deduction that meet the income tests 
+ get three months (March 31). Other year-ends: use the Deadline tools pag
+ e on ghayurtax.com. Who: Corporations with a December 31 year-end. If a 
+ due date falls on a Saturday\, Sunday or public holiday\, the CRA treats
+  it as on time if received the next business day. More: https://www.ghay
+ urtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Corporate tax balance due — December 31 year-ends
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Corporate tax balance due — December 31 year-ends
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-business-ontario-employer-health-tax-annual-retur@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+RRULE:FREQ=YEARLY
+SUMMARY:Ontario Employer Health Tax annual return
+DESCRIPTION:Due March 15 for the previous calendar year. Employers with O
+ ntario payroll under the exemption usually do not have to file — check
+  with us if unsure. Who: Employers who file EHT. If a due date falls on 
+ a Saturday\, Sunday or public holiday\, the CRA treats it as on time if 
+ received the next business day. More: https://www.ghayurtax.com/key-date
+ s.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Ontario Employer Health Tax annual return
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Ontario Employer Health Tax annual return
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-business-t3-trust-returns-and-t5013-partnership-r@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+RRULE:FREQ=YEARLY
+SUMMARY:T3 trust returns and T5013 partnership returns
+DESCRIPTION:T3 returns and slips are due 90 days after the trust's year-e
+ nd (March 31 for December year-ends\; March 30 in a leap year). T5013 pa
+ rtnership returns are due March 31 for most partnerships. Who: Trusts wi
+ th a December year-end\; most partnerships. If a due date falls on a Sat
+ urday\, Sunday or public holiday\, the CRA treats it as on time if recei
+ ved the next business day. More: https://www.ghayurtax.com/key-dates.htm
+ l
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: T3 trust returns and T5013 partnership returns
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: T3 trust returns and T5013 partnership returns
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-business-t2-corporate-return-and-ontario-annual-r@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+RRULE:FREQ=YEARLY
+SUMMARY:T2 corporate return and Ontario annual return — December 31 yea
+ r-ends
+DESCRIPTION:Six months after year-end for the T2 and for the Ontario annu
+ al return filed through the Ontario Business Registry. The tax itself wa
+ s due in February or March. Other year-ends: use the Deadline tools page
+  on ghayurtax.com. Who: Corporations with a December 31 year-end. If a d
+ ue date falls on a Saturday\, Sunday or public holiday\, the CRA treats 
+ it as on time if received the next business day. More: https://www.ghayu
+ rtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: T2 corporate return and Ontario annual return — D
+ ecember 31 year-ends
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: T2 corporate return and Ontario annual return — D
+ ecember 31 year-ends
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-payroll-hst-payroll-source-deductions-due--regular-r@ghayurtax.c
+ om
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+RRULE:FREQ=MONTHLY;BYMONTHDAY=15
+SUMMARY:Payroll source deductions due (regular remitters)
+DESCRIPTION:CPP\, EI and income tax withheld in the previous month. Quart
+ erly remitters pay on April 15\, July 15\, October 15 and January 15. Ac
+ celerated remitters have earlier dates. Who: Employers remitting monthly
+ . If a due date falls on a Saturday\, Sunday or public holiday\, the CRA
+  treats it as on time if received the next business day. More: https://w
+ ww.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Payroll source deductions due (regular remitters)
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Payroll source deductions due (regular remitters)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-payroll-hst-hst-gst-return-and-payment---quarterly-f@ghayurtax.c
+ om
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+RRULE:FREQ=YEARLY;BYMONTH=1,4,7,10;BYMONTHDAY=-1
+SUMMARY:HST/GST return and payment — quarterly filers
+DESCRIPTION:One month after the end of each calendar quarter. Annual file
+ rs who owed more than $3\,000 last year pay quarterly instalments on the
+  same dates. Who: Quarterly filers on calendar quarters\; annual filers'
+  instalments. If a due date falls on a Saturday\, Sunday or public holid
+ ay\, the CRA treats it as on time if received the next business day. Mor
+ e: https://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: HST/GST return and payment — quarterly filers
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: HST/GST return and payment — quarterly filers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-payroll-hst-wsib@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+RRULE:FREQ=YEARLY;BYMONTH=1,4,7,10;BYMONTHDAY=-1
+SUMMARY:WSIB premiums and reporting — quarterly reporters
+DESCRIPTION:Report insurable earnings and pay premiums by the end of the 
+ month after each quarter. Who: Ontario employers reporting to WSIB quart
+ erly. If a due date falls on a Saturday\, Sunday or public holiday\, the
+  CRA treats it as on time if received the next business day. More: https
+ ://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: WSIB premiums and reporting — quarterly reporters
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: WSIB premiums and reporting — quarterly reporters
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-payroll-hst-hst-gst-annual-return-and-payment---corp@ghayurtax.c
+ om
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+RRULE:FREQ=YEARLY
+SUMMARY:HST/GST annual return and payment — corporations with a Decembe
+ r 31 year-end
+DESCRIPTION:Three months after the fiscal year-end for annual filers. Oth
+ er year-ends: use the Deadline tools page on ghayurtax.com. Who: Corpora
+ tions filing HST annually. If a due date falls on a Saturday\, Sunday or
+  public holiday\, the CRA treats it as on time if received the next busi
+ ness day. More: https://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: HST/GST annual return and payment — corporations 
+ with a December 31 year-end
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: HST/GST annual return and payment — corporations 
+ with a December 31 year-end
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-payroll-hst-hst-gst-payment-due---self-employed-annu@ghayurtax.c
+ om
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+RRULE:FREQ=YEARLY
+SUMMARY:HST/GST payment due — self-employed annual filers
+DESCRIPTION:The payment is due April 30 even though the return is not due
+  until June 15. Who: Sole proprietors filing HST annually with a Decembe
+ r 31 year-end. If a due date falls on a Saturday\, Sunday or public holi
+ day\, the CRA treats it as on time if received the next business day. Mo
+ re: https://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: HST/GST payment due — self-employed annual filers
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: HST/GST payment due — self-employed annual filers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-payroll-hst-hst-gst-annual-return---self-employed-an@ghayurtax.c
+ om
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+RRULE:FREQ=YEARLY
+SUMMARY:HST/GST annual return — self-employed annual filers
+DESCRIPTION:The return is due June 15\; the payment was due April 30. Who
+ : Sole proprietors filing HST annually with a December 31 year-end. If a
+  due date falls on a Saturday\, Sunday or public holiday\, the CRA treat
+ s it as on time if received the next business day. More: https://www.gha
+ yurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: HST/GST annual return — self-employed annual file
+ rs
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: HST/GST annual return — self-employed annual file
+ rs
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-childcare-planning-time-and-professional-learning-@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+RRULE:FREQ=YEARLY
+SUMMARY:Planning time and professional learning notices to staff (Peel)
+DESCRIPTION:Tell staff in writing how planning time (four paid hours a mo
+ nth) and professional learning (up to $500 per full-time equivalent) wil
+ l work this year. Proof goes to the Region by February 13. Halton and To
+ ronto set their own dates. Who: CWELCC centres in Peel. If a due date fa
+ lls on a Saturday\, Sunday or public holiday\, the CRA treats it as on t
+ ime if received the next business day. More: https://www.ghayurtax.com/k
+ ey-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Planning time and professional learning notices to 
+ staff (Peel)
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Planning time and professional learning notices to 
+ staff (Peel)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-childcare-proof-of-planning-time-and-professional-@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+RRULE:FREQ=YEARLY
+SUMMARY:Proof of planning time and professional learning to Peel Region
+DESCRIPTION:Submit the staff communication and plan to the Region. Who: C
+ WELCC centres in Peel. If a due date falls on a Saturday\, Sunday or pub
+ lic holiday\, the CRA treats it as on time if received the next business
+  day. More: https://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Proof of planning time and professional learning to
+  Peel Region
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Proof of planning time and professional learning to
+  Peel Region
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-childcare-t4s-reconciled-to-gof--weg-and-wcf-enhan@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+RRULE:FREQ=YEARLY;BYMONTH=2;BYMONTHDAY=-1
+SUMMARY:T4s reconciled to GOF\, WEG and WCF enhancements
+DESCRIPTION:Wage enhancements must be shown separately on pay stubs and a
+ gree with the funding reports and the T4s filed today. Who: All CWELCC c
+ entres. If a due date falls on a Saturday\, Sunday or public holiday\, t
+ he CRA treats it as on time if received the next business day. More: htt
+ ps://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: T4s reconciled to GOF\, WEG and WCF enhancements
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: T4s reconciled to GOF\, WEG and WCF enhancements
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-childcare-audited-financial-statements-and-fair-du@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+RRULE:FREQ=YEARLY
+SUMMARY:Audited financial statements and FAIR due to Peel Region
+DESCRIPTION:Toronto: audited statements within four months of year-end\, 
+ plus the Standardized Financial Reports on the City's schedule. Halton: 
+ audited statements within 120 days of your fiscal year end. Who: CWELCC 
+ centres in Peel. If a due date falls on a Saturday\, Sunday or public ho
+ liday\, the CRA treats it as on time if received the next business day. 
+ More: https://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Audited financial statements and FAIR due to Peel R
+ egion
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Audited financial statements and FAIR due to Peel R
+ egion
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-childcare-half-year-spending-check-against-your-al@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+RRULE:FREQ=YEARLY
+SUMMARY:Half-year spending check against your allocation
+DESCRIPTION:Compare actual eligible spending and base-fee revenue to the 
+ allocation while there is time to adjust. Unspent allocation and ineligi
+ ble costs are recovered at reconciliation. Who: All CWELCC centres (reco
+ mmended). If a due date falls on a Saturday\, Sunday or public holiday\,
+  the CRA treats it as on time if received the next business day. More: h
+ ttps://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Half-year spending check against your allocation
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Half-year spending check against your allocation
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-childcare-third-quarter-spending-check-against-you@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+RRULE:FREQ=YEARLY
+SUMMARY:Third-quarter spending check against your allocation
+DESCRIPTION:Last realistic point to change staffing\, professional learni
+ ng and eligible purchases before year-end. Who: All CWELCC centres (reco
+ mmended). If a due date falls on a Saturday\, Sunday or public holiday\,
+  the CRA treats it as on time if received the next business day. More: h
+ ttps://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Third-quarter spending check against your allocatio
+ n
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Third-quarter spending check against your allocatio
+ n
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-childcare-last-day-this-year-s-eligible-costs-coun@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+RRULE:FREQ=YEARLY
+SUMMARY:Last day this year's eligible costs count
+DESCRIPTION:Unspent allocation is recovered at reconciliation. Profession
+ al learning budgets and planned eligible purchases must be spent and doc
+ umented by today. Who: All CWELCC centres. If a due date falls on a Satu
+ rday\, Sunday or public holiday\, the CRA treats it as on time if receiv
+ ed the next business day. More: https://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Last day this year's eligible costs count
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Last day this year's eligible costs count
+END:VALARM
+END:VEVENT
+END:VCALENDAR
