@@ -388,3 +388,25 @@ address{font-style:normal;line-height:1.5;color:var(--ink-2);margin-top:.3rem}
 .stars{color:var(--brand-accent);letter-spacing:.1em;font-size:.95rem;margin-bottom:.6rem}
 .reviews-more{margin-top:1.5rem;font-size:.95rem;color:var(--muted)}
 @media (max-width:900px){.review-grid{grid-template-columns:1fr}}
+
+/* ---- Results, case studies, decision flow, quote form (Sept 2026) ---- */
+.stat-band{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:1.25rem;margin:0 0 2rem;padding:0;list-style:none}
+.stat{background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--rule);border-radius:var(--r);padding:1.2rem 1.3rem;box-shadow:var(--shadow)}
+.stat b{display:block;font:600 clamp(1.7rem,4vw,2.4rem)/1 var(--font-display);color:var(--link);font-variant-numeric:tabular-nums;margin-bottom:.45rem}
+.stat span{display:block;color:var(--ink-2);font-size:.95rem;line-height:1.45}
+.cases{display:grid;grid-template-columns:repeat(auto-fit,minmax(19rem,1fr));gap:1.25rem}
+.case{background:var(--bg);border:1px solid var(--line);border-radius:var(--r);padding:1.3rem 1.4rem;display:flex;flex-direction:column;gap:.55rem}
+.case .case-tag{font:500 .7rem var(--font-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0}
+.case h3{font-size:1.06rem;margin:0}
+.case p{margin:0;color:var(--ink-2);font-size:.96rem}
+.case .case-out{margin-top:auto;padding-top:.85rem;border-top:1px solid var(--line);font:600 1.02rem var(--font-display);color:var(--link)}
+.flow{margin:0;width:100%;height:auto;display:block;max-width:44rem}
+.flow-wrap{background:var(--bg-2);border:1px solid var(--line);border-radius:var(--r);padding:1.3rem;overflow-x:auto}
+.flow-wrap figcaption{margin-top:.9rem;color:var(--muted);font-size:.9rem}
+.qform{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:1.5rem 1.5rem 1.6rem;box-shadow:var(--shadow)}
+.qform textarea{font:400 1rem var(--font-body);padding:.65rem .75rem;border:1.5px solid var(--line-strong);border-radius:var(--r-sm);background:var(--bg);color:var(--ink);width:100%;min-height:5.5rem;resize:vertical}
+.qform textarea:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-color:var(--rule)}
+.qform .cta-row{margin-top:1.2rem}
+.qnote{margin:.9rem 0 0;color:var(--muted);font-size:.9rem}
+.reviewed{display:block;margin-top:.45rem;font-size:.88rem;color:var(--muted)}
+@media (max-width:640px){.stat-band{gap:.9rem}.stat{padding:1rem 1.1rem}}
