@@ -410,3 +410,14 @@ address{font-style:normal;line-height:1.5;color:var(--ink-2);margin-top:.3rem}
 .qnote{margin:.9rem 0 0;color:var(--muted);font-size:.9rem}
 .reviewed{display:block;margin-top:.45rem;font-size:.88rem;color:var(--muted)}
 @media (max-width:640px){.stat-band{gap:.9rem}.stat{padding:1rem 1.1rem}}
+
+/* Four focus cards sit 2x2 rather than 3 + an orphan, and their links line up */
+@media (min-width:901px){#focus .clients-grid{grid-template-columns:repeat(2,1fr);gap:2.6rem 3rem}}
+.clients-grid .client{display:flex;flex-direction:column}
+.clients-grid .client a.more{margin-top:auto;align-self:flex-start;padding-top:.7rem}
+/* The results band reads as part of the section above it, not a loose row of boxes */
+.focus-proof{margin-top:3rem;padding-top:2.2rem;border-top:1px solid var(--line)}
+.focus-proof .eyebrow{margin-bottom:1.1rem}
+.band-link{margin:1.3rem 0 0;font-weight:600}
+.band-link a{color:var(--link);text-decoration:none;border-bottom:1.5px solid transparent}
+.band-link a:hover{border-color:var(--rule)}
