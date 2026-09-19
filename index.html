@@ -12,6 +12,10 @@
 <meta property="og:description" content="Family-run Mississauga accounting firm since 2001. Corporate (T2) and personal (T1) tax, bookkeeping, payroll and HST for physicians, childcare operators, not-for-profits and small businesses across Canada. Call 647-870-8498.">
 <meta property="og:url" content="https://www.ghayurtax.com/">
 <meta property="og:locale" content="en_CA">
+<meta property="og:image" content="https://www.ghayurtax.com/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#5E1A2A">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%235E1A2A'/%3E%3Ctext x='11' y='45' font-family='Georgia,serif' font-size='32' font-weight='700' fill='%23E0525F'%3EG%3C/text%3E%3Ctext x='34' y='45' font-family='Georgia,serif' font-size='32' font-weight='700' fill='%23FFFFFF'%3ET%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,6 +37,7 @@
    "foundingDate": "2001",
    "openingHours": "Mo-Fr 10:00-18:00",
    "priceRange": "$$",
+   "image": "https://www.ghayurtax.com/og.jpg",
    "hasMap": "https://www.google.com/maps/place/?q=place_id:ChIJEWnG3jBHK4gRhJqZscz1SMQ",
    "address": {
     "@type": "PostalAddress",
@@ -47,6 +52,7 @@
     "name": "Canada"
    },
    "sameAs": [
+    "https://www.google.com/maps/place/?q=place_id:ChIJEWnG3jBHK4gRhJqZscz1SMQ",
     "https://ca.linkedin.com/company/ghayur-accounts-and-tax-services",
     "https://www.yelp.ca/biz/sohail-ghayur-accounts-and-tax-service-mississauga"
    ],
@@ -186,7 +192,7 @@
         <article class="service">
           <span class="tag">T1</span>
           <h3>Personal tax</h3>
-          <p>Returns for employees, the self-employed, landlords, students and seniors — filed electronically with the CRA, with the slips and credits checked rather than just entered.</p>
+          <p>Returns for employees, the self-employed, landlords, students and seniors — filed electronically with the CRA, with the slips and credits checked rather than just entered. Most returns are $80 — <a href="#fees">see fees</a>.</p>
         </article>
         <article class="service">
           <span class="tag">T2</span>
@@ -221,13 +227,35 @@
         <article class="service">
           <span class="tag">Inc.</span>
           <h3>Incorporation</h3>
-          <p>Ontario or federal incorporation prepared and filed by us — name search, articles, CRA accounts, minute book and a December year-end — including professional corporations. <a href="incorporation.html">How it works →</a></p>
+          <p>Ontario or federal incorporation prepared and filed by us — articles and CRA accounts, from CA$599 for an Ontario numbered corporation — including named, federal and professional corporations. <a href="incorporation.html">How it works →</a></p>
         </article>
         <article class="service">
           <span class="tag">Advice</span>
           <h3>Business &amp; strategic advice</h3>
           <p>Owner compensation, cash flow, buying or selling, and what the numbers mean — practical advice from people who see your books every month.</p>
         </article>
+      </div>
+      <div class="callout fees" id="fees">
+        <h3>Personal tax fees</h3>
+        <p>Most personal returns are <strong>CA$80</strong>. A few situations take more work:</p>
+        <ul class="fee-list">
+          <li>Rental property — add $40 for each property</li>
+          <li>Taxi and Uber drivers — $150</li>
+          <li>Sole proprietors and the self-employed — depends on the records; quoted before we start</li>
+          <li>Complex returns, such as active traders — quoted before we start</li>
+        </ul>
+        <div class="estimator" id="estimator">
+          <h3>Instant estimate</h3>
+          <div class="field-row">
+            <div class="field"><label for="est-type">Your return</label>
+              <select id="est-type" name="type"><option value="80">Standard personal return</option><option value="150">Taxi or Uber driver</option></select></div>
+            <div class="field"><label for="est-rentals">Rental properties</label>
+              <input id="est-rentals" name="rentals" type="number" min="0" max="20" value="0" inputmode="numeric"></div>
+          </div>
+          <label class="check"><input type="checkbox" name="complex"> <span>I'm self-employed (other than taxi or Uber), or an active trader</span></label>
+          <ul class="results"><li><span class="lab">Estimated fee, per return</span><span class="val" data-est-out>CA$80</span></li></ul>
+          <p class="tool-note">An estimate, not a quote — we confirm the fee before we start. Corporate returns and bookkeeping are quoted after a short call.</p>
+        </div>
       </div>
     </div>
   </section>
