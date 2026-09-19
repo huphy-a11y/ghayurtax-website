@@ -423,3 +423,9 @@ address{font-style:normal;line-height:1.5;color:var(--ink-2);margin-top:.3rem}
 .band-link{margin:1.3rem 0 0;font-weight:600}
 .band-link a{color:var(--link);text-decoration:none;border-bottom:1.5px solid transparent}
 .band-link a:hover{border-color:var(--rule)}
+
+/* Resource grids: an incomplete last row must not leave a filled ghost cell.
+   Each tile draws its own hairline, so the grid simply ends where the tiles do. */
+.resources{background:transparent;border:0}
+.resources a{box-shadow:0 0 0 1px var(--line)}
+@media (min-width:901px){#resources .resources{grid-template-columns:repeat(3,1fr)}}
