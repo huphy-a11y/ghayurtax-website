@@ -1,0 +1,177 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ghayur Accounts and Tax Services//Key dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GATS · Personal tax dates
+X-WR-TIMEZONE:America/Toronto
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+X-PUBLISHED-TTL:P1W
+X-WR-CALDESC:Tax and filing dates from Ghayur Accounts and Tax Services (
+ GATS)\, Mississauga. https://www.ghayurtax.com/key-dates.html
+BEGIN:VEVENT
+UID:gats-personal-t4--t4a-and-t5-slips-arrive@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+RRULE:FREQ=YEARLY;BYMONTH=2;BYMONTHDAY=-1
+SUMMARY:T4\, T4A and T5 slips arrive
+DESCRIPTION:Employers\, payers and banks must issue slips by the last day
+  of February. If yours haven't arrived by the first week of March\, ask 
+ for them. Who: Everyone. If a due date falls on a Saturday\, Sunday or p
+ ublic holiday\, the CRA treats it as on time if received the next busine
+ ss day. More: https://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: T4\, T4A and T5 slips arrive
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: T4\, T4A and T5 slips arrive
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-personal-rrsp-contribution-deadline-for-last-year@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+RRULE:FREQ=YEARLY
+SUMMARY:RRSP contribution deadline for last year's return
+DESCRIPTION:Contributions made in the first 60 days of the year can be de
+ ducted on the previous year's return (February 29 in a leap year). FHSA 
+ contributions do not get the 60-day rule — they must be made by Decemb
+ er 31. Who: RRSP contributors. If a due date falls on a Saturday\, Sunda
+ y or public holiday\, the CRA treats it as on time if received the next 
+ business day. More: https://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: RRSP contribution deadline for last year's return
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: RRSP contribution deadline for last year's return
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-personal-personal-tax-instalment-due@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+RRULE:FREQ=YEARLY;BYMONTH=3,6,9,12;BYMONTHDAY=15
+SUMMARY:Personal tax instalment due
+DESCRIPTION:Instalments are required if your net tax owing is more than $
+ 3\,000 this year and was in either of the two previous years. The CRA se
+ nds instalment reminders in February and August. Who: Self-employed\, la
+ ndlords\, investors — anyone who owes more than $3\,000 at filing. If 
+ a due date falls on a Saturday\, Sunday or public holiday\, the CRA trea
+ ts it as on time if received the next business day. More: https://www.gh
+ ayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Personal tax instalment due
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Personal tax instalment due
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-personal-t1-personal-return-and-balance-due@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+RRULE:FREQ=YEARLY
+SUMMARY:T1 personal return and balance due
+DESCRIPTION:File your T1 and pay any balance. Self-employed people and th
+ eir spouses have until June 15 to file\, but interest on a balance start
+ s May 1. Who: Everyone (self-employed: payment due today\, return by Jun
+ e 15). If a due date falls on a Saturday\, Sunday or public holiday\, th
+ e CRA treats it as on time if received the next business day. More: http
+ s://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: T1 personal return and balance due
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: T1 personal return and balance due
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-personal-t1-filing-deadline---self-employed-and-t@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+RRULE:FREQ=YEARLY
+SUMMARY:T1 filing deadline — self-employed and their spouses
+DESCRIPTION:Last day to file without a late-filing penalty. Any balance w
+ as due April 30. Who: Self-employed and spouses. If a due date falls on 
+ a Saturday\, Sunday or public holiday\, the CRA treats it as on time if 
+ received the next business day. More: https://www.ghayurtax.com/key-date
+ s.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: T1 filing deadline — self-employed and their spou
+ ses
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: T1 filing deadline — self-employed and their spou
+ ses
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-personal-last-day-for-this-year-s-donations--fhsa@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+RRULE:FREQ=YEARLY
+SUMMARY:Last day for this year's donations\, FHSA and RESP contributions
+DESCRIPTION:Charitable donations\, FHSA contributions (no 60-day extensio
+ n) and RESP contributions for this year's grant must be made by December
+  31. TFSA contributions can be made any time there is room. Who: Everyon
+ e. If a due date falls on a Saturday\, Sunday or public holiday\, the CR
+ A treats it as on time if received the next business day. More: https://
+ www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Last day for this year's donations\, FHSA and RESP 
+ contributions
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Last day for this year's donations\, FHSA and RESP 
+ contributions
+END:VALARM
+END:VEVENT
+END:VCALENDAR
