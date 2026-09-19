@@ -1,0 +1,205 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ghayur Accounts and Tax Services//Key dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GATS · Childcare funding dates (CWELCC)
+X-WR-TIMEZONE:America/Toronto
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+X-PUBLISHED-TTL:P1W
+X-WR-CALDESC:Tax and filing dates from Ghayur Accounts and Tax Services (
+ GATS)\, Mississauga. https://www.ghayurtax.com/key-dates.html
+BEGIN:VEVENT
+UID:gats-childcare-planning-time-and-professional-learning-@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+RRULE:FREQ=YEARLY
+SUMMARY:Planning time and professional learning notices to staff (Peel)
+DESCRIPTION:Tell staff in writing how planning time (four paid hours a mo
+ nth) and professional learning (up to $500 per full-time equivalent) wil
+ l work this year. Proof goes to the Region by February 13. Halton and To
+ ronto set their own dates. Who: CWELCC centres in Peel. If a due date fa
+ lls on a Saturday\, Sunday or public holiday\, the CRA treats it as on t
+ ime if received the next business day. More: https://www.ghayurtax.com/k
+ ey-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Planning time and professional learning notices to 
+ staff (Peel)
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Planning time and professional learning notices to 
+ staff (Peel)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-childcare-proof-of-planning-time-and-professional-@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+RRULE:FREQ=YEARLY
+SUMMARY:Proof of planning time and professional learning to Peel Region
+DESCRIPTION:Submit the staff communication and plan to the Region. Who: C
+ WELCC centres in Peel. If a due date falls on a Saturday\, Sunday or pub
+ lic holiday\, the CRA treats it as on time if received the next business
+  day. More: https://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Proof of planning time and professional learning to
+  Peel Region
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Proof of planning time and professional learning to
+  Peel Region
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-childcare-t4s-reconciled-to-gof--weg-and-wcf-enhan@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+RRULE:FREQ=YEARLY;BYMONTH=2;BYMONTHDAY=-1
+SUMMARY:T4s reconciled to GOF\, WEG and WCF enhancements
+DESCRIPTION:Wage enhancements must be shown separately on pay stubs and a
+ gree with the funding reports and the T4s filed today. Who: All CWELCC c
+ entres. If a due date falls on a Saturday\, Sunday or public holiday\, t
+ he CRA treats it as on time if received the next business day. More: htt
+ ps://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: T4s reconciled to GOF\, WEG and WCF enhancements
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: T4s reconciled to GOF\, WEG and WCF enhancements
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-childcare-audited-financial-statements-and-fair-du@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+RRULE:FREQ=YEARLY
+SUMMARY:Audited financial statements and FAIR due to Peel Region
+DESCRIPTION:Toronto: audited statements within four months of year-end\, 
+ plus the Standardized Financial Reports on the City's schedule. Halton: 
+ audited statements within 120 days of your fiscal year end. Who: CWELCC 
+ centres in Peel. If a due date falls on a Saturday\, Sunday or public ho
+ liday\, the CRA treats it as on time if received the next business day. 
+ More: https://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Audited financial statements and FAIR due to Peel R
+ egion
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Audited financial statements and FAIR due to Peel R
+ egion
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-childcare-half-year-spending-check-against-your-al@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+RRULE:FREQ=YEARLY
+SUMMARY:Half-year spending check against your allocation
+DESCRIPTION:Compare actual eligible spending and base-fee revenue to the 
+ allocation while there is time to adjust. Unspent allocation and ineligi
+ ble costs are recovered at reconciliation. Who: All CWELCC centres (reco
+ mmended). If a due date falls on a Saturday\, Sunday or public holiday\,
+  the CRA treats it as on time if received the next business day. More: h
+ ttps://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Half-year spending check against your allocation
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Half-year spending check against your allocation
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-childcare-third-quarter-spending-check-against-you@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+RRULE:FREQ=YEARLY
+SUMMARY:Third-quarter spending check against your allocation
+DESCRIPTION:Last realistic point to change staffing\, professional learni
+ ng and eligible purchases before year-end. Who: All CWELCC centres (reco
+ mmended). If a due date falls on a Saturday\, Sunday or public holiday\,
+  the CRA treats it as on time if received the next business day. More: h
+ ttps://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Third-quarter spending check against your allocatio
+ n
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Third-quarter spending check against your allocatio
+ n
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-childcare-last-day-this-year-s-eligible-costs-coun@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+RRULE:FREQ=YEARLY
+SUMMARY:Last day this year's eligible costs count
+DESCRIPTION:Unspent allocation is recovered at reconciliation. Profession
+ al learning budgets and planned eligible purchases must be spent and doc
+ umented by today. Who: All CWELCC centres. If a due date falls on a Satu
+ rday\, Sunday or public holiday\, the CRA treats it as on time if receiv
+ ed the next business day. More: https://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Last day this year's eligible costs count
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Last day this year's eligible costs count
+END:VALARM
+END:VEVENT
+END:VCALENDAR
