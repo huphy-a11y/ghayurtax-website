@@ -105,3 +105,18 @@ window.GATS = {
   bar.innerHTML = '<span class="season-dot" aria-hidden="true"></span>Next deadline: <strong>' + best.label + '</strong> \u2014 ' + when + ', ' + left + '. <a href="key-dates.html">All key dates</a>';
   header.insertAdjacentElement('afterend', bar);
 })();
+
+/* Home page: show the first six cards of long grids, the rest behind a button */
+(function () {
+  if (!document.querySelector('.hero')) return;
+  document.querySelectorAll('.services-grid, .clients-grid').forEach(function (g) {
+    if (g.children.length <= 6) return;
+    g.classList.add('is-collapsed');
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'btn btn-outline show-all';
+    b.textContent = 'Show all ' + g.children.length;
+    b.addEventListener('click', function () { g.classList.remove('is-collapsed'); b.remove(); });
+    g.insertAdjacentElement('afterend', b);
+  });
+})();
