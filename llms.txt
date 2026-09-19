@@ -1,12 +1,12 @@
 # Ghayur Accounts and Tax Services (GATS)
 
-> Independent, family-run accounting and tax firm in Mississauga, Ontario, established 2001. Corporate (T2) and personal (T1) tax, bookkeeping, payroll, HST/GST, incorporations, and specialist work for licensed childcare centres (CWELCC funding reconciliations), physicians and medical professional corporations, not-for-profits and charities, newcomers and cross-border (Canada, US, UK) individuals, manufacturers, franchises, restaurants and builders. Works remotely with clients across Canada.
+> Independent, family-run accounting and tax firm in Mississauga, Ontario, established 2001. Corporate (T2) and personal (T1) tax, bookkeeping, payroll, HST/GST, incorporations, and specialist work for licensed childcare centres (CWELCC funding reconciliations), physicians and medical professional corporations, not-for-profits and charities, newcomers and cross-border (Canada, US, UK) individuals, e-commerce sellers on Shopify and Amazon (including US state sales tax registration and filing), manufacturers, franchises, restaurants and builders. Works remotely with clients across Canada.
 
 - Phone: 647-870-8498
 - Email: office@ghayurtax.com
 - Office: 100-51 Village Centre Place, Mississauga, ON L4Z 1V9, Canada
 - Hours: Monday to Friday, 10 am to 6 pm (Eastern)
-- Contact by phone or email; no online booking. Documents are sent through a secure Intuit Link portal, never by email.
+- Contact by phone or email; no online booking calendar. A quote form at https://www.ghayurtax.com/quote.html composes an email for the client to send. Documents are sent through a secure Intuit Link portal, never by email.
 - Payment: Interac e-Transfer to office@ghayurtax.com
 - Fees: most personal tax returns are CA$80; add $40 per rental property; taxi and Uber drivers $150; self-employed and complex returns quoted up front. Ontario numbered incorporation from CA$599.
 
@@ -27,7 +27,7 @@
 
 - [The CWELCC reconciliation, step by step](https://www.ghayurtax.com/cwelcc-reconciliation.html): what Regions compare, the six steps, the 20 closure-day maximum, where recoveries start
 - [CWELCC deadlines for Peel, Halton and Toronto](https://www.ghayurtax.com/cwelcc-deadlines.html)
-- [2026 wage floors, WEG and workforce compensation](https://www.ghayurtax.com/cwelcc-wage-floors.html): $25.86 and $26.86 floors, the order of operations, payroll rules
+- [2026 wage floors, WEG and workforce compensation](https://www.ghayurtax.com/cwelcc-wage-floors.html): $25.86 for RECE program staff and $26.86 for RECE supervisors and home child care visitors, the order of operations, the 17.5% benefits cap, payroll rules
 - [Home child care agencies and base-fee recovery](https://www.ghayurtax.com/cwelcc-home-child-care-agencies.html): why occupancy above 95% leads to a recovery; GATS works with several licensed home child care agencies
 
 ## Guides for physicians (Ontario, 2026)
@@ -47,9 +47,17 @@
 - [Buying a dental practice: the tax side](https://www.ghayurtax.com/buying-a-dental-practice.html)
 - [Associate dentists: contractor, employee and taxes](https://www.ghayurtax.com/associate-dentist-taxes.html)
 
+## E-commerce sellers (Shopify, Amazon, Etsy, eBay)
+
+- [E-commerce accounting and tax](https://www.ghayurtax.com/ecommerce.html): GST/HST registration and returns, US state sales tax registered and filed on the seller's behalf, bookkeeping from gross sales, inventory and cost of goods sold across Canadian and US fulfilment centres, importing and the CARM import/export account
+- [GST/HST for Shopify and Amazon sellers](https://www.ghayurtax.com/ecommerce-hst-gst-shopify-amazon.html): the $30,000 worldwide threshold (zero-rated exports count toward it), when a marketplace collects instead of the seller, and destination rates by province
+- [US sales tax for Canadian sellers](https://www.ghayurtax.com/us-sales-tax-canadian-sellers.html): economic nexus thresholds by state, whether FBA inventory creates physical presence, what marketplace facilitator laws cover, and the Canada-US treaty filing position
+- [Bookkeeping for Shopify and Amazon payouts](https://www.ghayurtax.com/shopify-bookkeeping-payouts.html): gross sales versus net deposits, platform reporting to the CRA, inventory valuation, six-year record retention
+
 ## Free resources
 
 - [Grants, funding and tax credits for Ontario businesses, 2026](https://www.ghayurtax.com/grants.html): programs checked against official pages, by audience, including manufacturers
 - [Canadian tax deadlines 2026-2027](https://www.ghayurtax.com/key-dates.html): CRA and Ontario dates with subscribable calendars
 - [Deadline tools](https://www.ghayurtax.com/deadline-tools.html): T2 filing, balance-due, instalment and HST due-date calculators from a fiscal year-end
 - [Pay an invoice](https://www.ghayurtax.com/pay.html)
+- [Get a quote](https://www.ghayurtax.com/quote.html): a short form that composes an email or a phone call; there is no online booking calendar
