@@ -416,8 +416,10 @@ address{font-style:normal;line-height:1.5;color:var(--ink-2);margin-top:.3rem}
 .clients-grid .client{display:flex;flex-direction:column}
 .clients-grid .client a.more{margin-top:auto;align-self:flex-start;padding-top:.7rem}
 /* The results band reads as part of the section above it, not a loose row of boxes */
-.focus-proof{margin-top:3rem;padding-top:2.2rem;border-top:1px solid var(--line)}
-.focus-proof .eyebrow{margin-bottom:1.1rem}
+.focus-proof{margin-top:4rem;padding-top:2.8rem;border-top:2px solid var(--rule)}
+.focus-proof .eyebrow{margin-bottom:.9rem}
+.focus-proof h3{font-size:clamp(1.3rem,2.4vw,1.75rem);margin:0 0 .7rem}
+.focus-proof .section-lede{max-width:70ch}
 .band-link{margin:1.3rem 0 0;font-weight:600}
 .band-link a{color:var(--link);text-decoration:none;border-bottom:1.5px solid transparent}
 .band-link a:hover{border-color:var(--rule)}
