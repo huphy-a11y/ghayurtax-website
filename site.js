@@ -142,3 +142,36 @@ window.GATS = {
   span.textContent = 'Reviewed ' + m + ' ' + p[0] + '. We re-check the figures on this page against the source each quarter.';
   notes[notes.length - 1].appendChild(span);
 })();
+
+/* A quote link beside the call button in every closing band, and the newer
+   specialties in the footer, so a page never has to be edited to gain them. */
+(function () {
+  var here = location.pathname.split('/').pop() || 'index.html';
+
+  if (here !== 'quote.html') {
+    document.querySelectorAll('.cta-band .cta-row').forEach(function (row) {
+      if (row.querySelector('a[href="quote.html"]')) return;
+      var a = document.createElement('a');
+      a.className = 'btn btn-outline';
+      a.href = 'quote.html';
+      a.textContent = 'Get a quote';
+      row.appendChild(a);
+    });
+  }
+
+  var lists = document.querySelectorAll('.foot-col ul');
+  for (var i = 0; i < lists.length; i++) {
+    var ul = lists[i];
+    if (!ul.querySelector('a[href="childcare.html"]')) continue;
+    if (ul.querySelector('a[href="ecommerce.html"]')) break;
+    var li = document.createElement('li');
+    li.innerHTML = '<a href="ecommerce.html">E-commerce &amp; online sellers</a>';
+    var med = ul.querySelector('a[href="medical.html"]');
+    if (med && med.parentNode.nextSibling) {
+      ul.insertBefore(li, med.parentNode.nextSibling);
+    } else {
+      ul.appendChild(li);
+    }
+    break;
+  }
+})();
