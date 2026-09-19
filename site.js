@@ -120,3 +120,25 @@ window.GATS = {
     g.insertAdjacentElement('afterend', b);
   });
 })();
+
+/* Show when the page was last reviewed, taken from the JSON-LD dateModified */
+(function () {
+  var s = document.querySelector('script[type="application/ld+json"]');
+  var main = document.getElementById('main');
+  if (!s || !main) return;
+  var d;
+  try {
+    var g = JSON.parse(s.textContent)['@graph'] || [];
+    for (var i = 0; i < g.length; i++) { if (g[i].dateModified) { d = g[i].dateModified; break; } }
+  } catch (e) { return; }
+  if (!d) return;
+  var p = d.split('-');
+  var m = ['January','February','March','April','May','June','July','August','September','October','November','December'][+p[1] - 1];
+  if (!m) return;
+  var notes = main.querySelectorAll('.doc-note');
+  if (!notes.length) return;
+  var span = document.createElement('span');
+  span.className = 'reviewed';
+  span.textContent = 'Reviewed ' + m + ' ' + p[0] + '. We re-check the figures on this page against the source each quarter.';
+  notes[notes.length - 1].appendChild(span);
+})();
