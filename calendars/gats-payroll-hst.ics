@@ -1,0 +1,180 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ghayur Accounts and Tax Services//Key dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GATS · Payroll & HST dates
+X-WR-TIMEZONE:America/Toronto
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+X-PUBLISHED-TTL:P1W
+X-WR-CALDESC:Tax and filing dates from Ghayur Accounts and Tax Services (
+ GATS)\, Mississauga. https://www.ghayurtax.com/key-dates.html
+BEGIN:VEVENT
+UID:gats-payroll-hst-payroll-source-deductions-due--regular-r@ghayurtax.c
+ om
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+RRULE:FREQ=MONTHLY;BYMONTHDAY=15
+SUMMARY:Payroll source deductions due (regular remitters)
+DESCRIPTION:CPP\, EI and income tax withheld in the previous month. Quart
+ erly remitters pay on April 15\, July 15\, October 15 and January 15. Ac
+ celerated remitters have earlier dates. Who: Employers remitting monthly
+ . If a due date falls on a Saturday\, Sunday or public holiday\, the CRA
+  treats it as on time if received the next business day. More: https://w
+ ww.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Payroll source deductions due (regular remitters)
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Payroll source deductions due (regular remitters)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-payroll-hst-hst-gst-return-and-payment---quarterly-f@ghayurtax.c
+ om
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+RRULE:FREQ=YEARLY;BYMONTH=1,4,7,10;BYMONTHDAY=-1
+SUMMARY:HST/GST return and payment — quarterly filers
+DESCRIPTION:One month after the end of each calendar quarter. Annual file
+ rs who owed more than $3\,000 last year pay quarterly instalments on the
+  same dates. Who: Quarterly filers on calendar quarters\; annual filers'
+  instalments. If a due date falls on a Saturday\, Sunday or public holid
+ ay\, the CRA treats it as on time if received the next business day. Mor
+ e: https://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: HST/GST return and payment — quarterly filers
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: HST/GST return and payment — quarterly filers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-payroll-hst-wsib@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+RRULE:FREQ=YEARLY;BYMONTH=1,4,7,10;BYMONTHDAY=-1
+SUMMARY:WSIB premiums and reporting — quarterly reporters
+DESCRIPTION:Report insurable earnings and pay premiums by the end of the 
+ month after each quarter. Who: Ontario employers reporting to WSIB quart
+ erly. If a due date falls on a Saturday\, Sunday or public holiday\, the
+  CRA treats it as on time if received the next business day. More: https
+ ://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: WSIB premiums and reporting — quarterly reporters
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: WSIB premiums and reporting — quarterly reporters
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-payroll-hst-hst-gst-annual-return-and-payment---corp@ghayurtax.c
+ om
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+RRULE:FREQ=YEARLY
+SUMMARY:HST/GST annual return and payment — corporations with a Decembe
+ r 31 year-end
+DESCRIPTION:Three months after the fiscal year-end for annual filers. Oth
+ er year-ends: use the Deadline tools page on ghayurtax.com. Who: Corpora
+ tions filing HST annually. If a due date falls on a Saturday\, Sunday or
+  public holiday\, the CRA treats it as on time if received the next busi
+ ness day. More: https://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: HST/GST annual return and payment — corporations 
+ with a December 31 year-end
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: HST/GST annual return and payment — corporations 
+ with a December 31 year-end
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-payroll-hst-hst-gst-payment-due---self-employed-annu@ghayurtax.c
+ om
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+RRULE:FREQ=YEARLY
+SUMMARY:HST/GST payment due — self-employed annual filers
+DESCRIPTION:The payment is due April 30 even though the return is not due
+  until June 15. Who: Sole proprietors filing HST annually with a Decembe
+ r 31 year-end. If a due date falls on a Saturday\, Sunday or public holi
+ day\, the CRA treats it as on time if received the next business day. Mo
+ re: https://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: HST/GST payment due — self-employed annual filers
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: HST/GST payment due — self-employed annual filers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-payroll-hst-hst-gst-annual-return---self-employed-an@ghayurtax.c
+ om
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+RRULE:FREQ=YEARLY
+SUMMARY:HST/GST annual return — self-employed annual filers
+DESCRIPTION:The return is due June 15\; the payment was due April 30. Who
+ : Sole proprietors filing HST annually with a December 31 year-end. If a
+  due date falls on a Saturday\, Sunday or public holiday\, the CRA treat
+ s it as on time if received the next business day. More: https://www.gha
+ yurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: HST/GST annual return — self-employed annual file
+ rs
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: HST/GST annual return — self-employed annual file
+ rs
+END:VALARM
+END:VEVENT
+END:VCALENDAR
