@@ -429,3 +429,7 @@ address{font-style:normal;line-height:1.5;color:var(--ink-2);margin-top:.3rem}
 .resources{background:transparent;border:0}
 .resources a{box-shadow:0 0 0 1px var(--line)}
 @media (min-width:901px){#resources .resources{grid-template-columns:repeat(3,1fr)}}
+
+/* Keep the collapse working: the flex rule above matches .is-collapsed>:nth-child(n+7)
+   at equal specificity and comes later in the file, so it has to be restated here. */
+.is-collapsed>:nth-child(n+7){display:none}
