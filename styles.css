@@ -366,3 +366,13 @@ address{font-style:normal;line-height:1.5;color:var(--ink-2);margin-top:.3rem}
 .brand-name{white-space:nowrap}
 @media (max-width:94em){.site-nav{gap:1.1rem}.site-nav a{font-size:.9rem}.brand-name{font-size:1rem}.brand-sub{display:none}}
 @media (max-width:77em){.brand{flex:0 1 auto;min-width:0}.brand-name{white-space:normal}.site-nav{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;gap:0;background:var(--brand-deep);padding:.25rem clamp(16px,4vw,32px) 1rem;border-bottom:1px solid var(--brand-line);box-shadow:0 16px 30px -12px rgba(0,0,0,.45)}.site-header.open .site-nav{display:flex}.site-nav a{padding:.9rem 0;border-bottom:1px solid var(--brand-line);font-size:1.05rem;color:#FFFFFF}.site-nav a:last-child{border-bottom:0}.menu-btn{display:inline-flex}.nav-actions .btn-light{display:none}}
+/* Next-deadline bar + fees block (Sept 18, 2026) */
+.season-bar{background:var(--brand-deep);color:var(--on-brand-2);font-size:.85rem;line-height:1.4;text-align:center;padding:.5rem clamp(16px,4vw,32px);border-bottom:1px solid var(--brand-line)}
+.season-bar strong{color:#FFFFFF;font-weight:600}
+.season-bar a{color:#FFFFFF;margin-left:.35rem;white-space:nowrap}
+.season-dot{display:inline-block;width:.5rem;height:.5rem;border-radius:50%;background:#E0525F;margin-right:.5rem;vertical-align:.05em}
+.fees{margin-top:2rem}
+.fee-list{margin:0;padding-left:1.2rem;color:var(--ink-2)}
+.fee-list li{margin-bottom:.35rem;line-height:1.5}
+.estimator{margin-top:1.4rem;padding-top:1.3rem;border-top:1px solid var(--line)}
+.estimator h3{margin-bottom:.8rem}
