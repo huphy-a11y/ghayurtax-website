@@ -1,0 +1,152 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ghayur Accounts and Tax Services//Key dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GATS · Corporate & business dates
+X-WR-TIMEZONE:America/Toronto
+REFRESH-INTERVAL;VALUE=DURATION:P1W
+X-PUBLISHED-TTL:P1W
+X-WR-CALDESC:Tax and filing dates from Ghayur Accounts and Tax Services (
+ GATS)\, Mississauga. https://www.ghayurtax.com/key-dates.html
+BEGIN:VEVENT
+UID:gats-business-t4--t4a-and-t5-slips-and-summaries-due-t@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+RRULE:FREQ=YEARLY;BYMONTH=2;BYMONTHDAY=-1
+SUMMARY:T4\, T4A and T5 slips and summaries due to the CRA
+DESCRIPTION:File the T4 and T4A summaries and give employees their slips.
+  T5s for dividends paid during the year are due the same day. Who: Emplo
+ yers\; corporations that paid dividends. If a due date falls on a Saturd
+ ay\, Sunday or public holiday\, the CRA treats it as on time if received
+  the next business day. More: https://www.ghayurtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: T4\, T4A and T5 slips and summaries due to the CRA
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: T4\, T4A and T5 slips and summaries due to the CRA
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-business-corp-balance@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+RRULE:FREQ=YEARLY;BYMONTH=2;BYMONTHDAY=-1
+SUMMARY:Corporate tax balance due — December 31 year-ends
+DESCRIPTION:Two months after year-end. Canadian-controlled private corpor
+ ations claiming the small business deduction that meet the income tests 
+ get three months (March 31). Other year-ends: use the Deadline tools pag
+ e on ghayurtax.com. Who: Corporations with a December 31 year-end. If a 
+ due date falls on a Saturday\, Sunday or public holiday\, the CRA treats
+  it as on time if received the next business day. More: https://www.ghay
+ urtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Corporate tax balance due — December 31 year-ends
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Corporate tax balance due — December 31 year-ends
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-business-ontario-employer-health-tax-annual-retur@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+RRULE:FREQ=YEARLY
+SUMMARY:Ontario Employer Health Tax annual return
+DESCRIPTION:Due March 15 for the previous calendar year. Employers with O
+ ntario payroll under the exemption usually do not have to file — check
+  with us if unsure. Who: Employers who file EHT. If a due date falls on 
+ a Saturday\, Sunday or public holiday\, the CRA treats it as on time if 
+ received the next business day. More: https://www.ghayurtax.com/key-date
+ s.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: Ontario Employer Health Tax annual return
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: Ontario Employer Health Tax annual return
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-business-t3-trust-returns-and-t5013-partnership-r@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+RRULE:FREQ=YEARLY
+SUMMARY:T3 trust returns and T5013 partnership returns
+DESCRIPTION:T3 returns and slips are due 90 days after the trust's year-e
+ nd (March 31 for December year-ends\; March 30 in a leap year). T5013 pa
+ rtnership returns are due March 31 for most partnerships. Who: Trusts wi
+ th a December year-end\; most partnerships. If a due date falls on a Sat
+ urday\, Sunday or public holiday\, the CRA treats it as on time if recei
+ ved the next business day. More: https://www.ghayurtax.com/key-dates.htm
+ l
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: T3 trust returns and T5013 partnership returns
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: T3 trust returns and T5013 partnership returns
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gats-business-t2-corporate-return-and-ontario-annual-r@ghayurtax.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+RRULE:FREQ=YEARLY
+SUMMARY:T2 corporate return and Ontario annual return — December 31 yea
+ r-ends
+DESCRIPTION:Six months after year-end for the T2 and for the Ontario annu
+ al return filed through the Ontario Business Registry. The tax itself wa
+ s due in February or March. Other year-ends: use the Deadline tools page
+  on ghayurtax.com. Who: Corporations with a December 31 year-end. If a d
+ ue date falls on a Saturday\, Sunday or public holiday\, the CRA treats 
+ it as on time if received the next business day. More: https://www.ghayu
+ rtax.com/key-dates.html
+URL:https://www.ghayurtax.com/key-dates.html
+CATEGORIES:GATS
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week: T2 corporate return and Ontario annual return — D
+ ecember 31 year-ends
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: T2 corporate return and Ontario annual return — D
+ ecember 31 year-ends
+END:VALARM
+END:VEVENT
+END:VCALENDAR
