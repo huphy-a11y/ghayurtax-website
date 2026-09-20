@@ -15,7 +15,7 @@
 
 ## Services and specialties
 
-- [Home and services overview](https://www.ghayurtax.com/): personal tax, corporate tax, bookkeeping on QuickBooks Online, payroll and HST, financial reporting, cross-border tax, business advice
+- [Home and services overview](https://www.ghayurtax.com/): personal tax, corporate tax, bookkeeping in Excel or QuickBooks Online (whichever the client uses), payroll and HST, financial reporting, cross-border tax, business advice
 - [Childcare operators and CWELCC](https://www.ghayurtax.com/childcare.html): CWELCC cost-based funding reconciliations, spending plans and payroll wage rules for licensed centres in Peel, Halton and Toronto
 - [Physicians and medical professional corporations](https://www.ghayurtax.com/medical.html): MPC year-ends, T2s, salary versus dividends, when a physician should incorporate
 - [Not-for-profits and charities](https://www.ghayurtax.com/nonprofits.html): fund-tracked bookkeeping, financial statements, T3010 and T1044 returns, HST rebates
