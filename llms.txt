@@ -18,9 +18,10 @@
 - [Home and services overview](https://www.ghayurtax.com/): personal tax, corporate tax, bookkeeping in Excel or QuickBooks Online (whichever the client uses), payroll and HST, financial reporting, cross-border tax, business advice
 - [Childcare operators and CWELCC](https://www.ghayurtax.com/childcare.html): CWELCC cost-based funding reconciliations, spending plans and payroll wage rules for licensed centres in Peel, Halton and Toronto
 - [Physicians and medical professional corporations](https://www.ghayurtax.com/medical.html): MPC year-ends, T2s, salary versus dividends, when a physician should incorporate
+- [Regulated health clinics](https://www.ghayurtax.com/clinic-accounting-ontario.html): bookkeeping, payroll, HST and corporate tax for chiropractic, optometry, physiotherapy, psychology and veterinary clinics
 - [Not-for-profits and charities](https://www.ghayurtax.com/nonprofits.html): fund-tracked bookkeeping, financial statements, T3010 and T1044 returns, HST rebates
 - [Newcomers and cross-border](https://www.ghayurtax.com/newcomers.html): first Canadian return, US and UK income, residency, foreign tax credits
-- [Incorporation](https://www.ghayurtax.com/incorporation.html): Ontario or federal incorporation prepared and filed by the firm, from CA$599 for an Ontario numbered corporation (government fee included); named, federal and professional corporations quoted
+- [Incorporation](https://www.ghayurtax.com/incorporation.html): incorporation prepared and filed by the firm, federally or in any province, from CA$599 for an Ontario numbered corporation (government fee included); named, federal, professional and out-of-province corporations quoted after a call
 - [AI solutions](https://www.ghayurtax.com/ai.html): AI-assisted bookkeeping with human review, AI strategy sessions and custom AI builds for small businesses, daycares and medical practices
 
 ## CWELCC guides (2026 guidelines)
@@ -47,6 +48,10 @@
 - [Buying a dental practice: the tax side](https://www.ghayurtax.com/buying-a-dental-practice.html)
 - [Associate dentists: contractor, employee and taxes](https://www.ghayurtax.com/associate-dentist-taxes.html)
 - [HST for dental and orthodontic practices](https://www.ghayurtax.com/dental-hst-input-tax-credits.html): input tax credits after the CRA revoked the 35% orthodontic arrangement (fiscal years from January 1, 2025), zero-rated orthodontic appliances, why the CRA treats crowns, bridges and dentures fitted by a dentist as exempt, and fair and reasonable allocation
+
+## Guides for regulated health clinics (Ontario, 2026)
+
+- [Accounting for regulated health clinics](https://www.ghayurtax.com/clinic-accounting-ontario.html): chiropractic, optometry, physiotherapy, psychology and veterinary practices. Which revenue is exempt, which is zero-rated and which is taxable in each of the five; why prescription eyewear being zero-rated rather than exempt usually forces an optometry practice to register and lets it recover HST; why veterinary services are fully taxable with full input tax credits; input tax credit apportionment where a clinic makes both exempt and taxable supplies; associate classification and the HST on a clinic’s retained percentage; payroll, Employer Health Tax and WSIB; clinic bookkeeping from insurer remittances to prepaid packages
 
 ## E-commerce sellers (Shopify, Amazon, Etsy, eBay)
 
