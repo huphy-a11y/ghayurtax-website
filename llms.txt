@@ -22,6 +22,7 @@
 - [Not-for-profits and charities](https://www.ghayurtax.com/nonprofits.html): fund-tracked bookkeeping, financial statements, T3010 and T1044 returns, HST rebates
 - [Newcomers and cross-border](https://www.ghayurtax.com/newcomers.html): first Canadian return, US and UK income, residency, foreign tax credits
 - [Incorporation](https://www.ghayurtax.com/incorporation.html): incorporation prepared and filed by the firm, federally or in any province, from CA$599 for an Ontario numbered corporation (government fee included); named, federal, professional and out-of-province corporations quoted after a call
+- [Should you incorporate your business in Ontario?](https://www.ghayurtax.com/should-you-incorporate-ontario.html): the deferral arithmetic on income left in the company, roughly 11.7% combined for a Dec 31 2026 year-end and 11.2% from 2027, five cases where incorporating does not pay (including personal services business risk and mortgage timing), the $300 Ontario filing fee and the annual running cost
 - [AI solutions](https://www.ghayurtax.com/ai.html): AI-assisted bookkeeping with human review, AI strategy sessions and custom AI builds for small businesses, daycares and medical practices
 
 ## CWELCC guides (2026 guidelines)
